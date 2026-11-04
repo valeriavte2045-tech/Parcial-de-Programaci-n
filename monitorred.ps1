@@ -13,3 +13,6 @@ for ($i = 1; $i -le 3; $i++) {
         Write-Host "Iteración $i es impar"
     }
 }
+
+Write-Host "`n=== El monitoreo ha concluido con éxito ==="
+Write-Host "Versión PowerShell: $($PSVersionTable.PSVersion)"
